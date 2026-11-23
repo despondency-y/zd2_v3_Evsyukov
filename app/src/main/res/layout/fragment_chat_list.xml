@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="@string/Title_chatList"
+            android:textColor="#3170A6"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="@string/lucifer"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#3170A6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="@string/the_witcher"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#3170A6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="@string/lost"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#3170A6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="@string/the_magicans"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</ScrollView>
